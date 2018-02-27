@@ -1,0 +1,9 @@
+prompt = "What toppings would you like on your pizza?"
+prompt += "\n type 'quit' to quit "
+
+message = ""
+while message != 'quit':
+	message = input(prompt)
+	if message !='quit':
+		print(message)
+
